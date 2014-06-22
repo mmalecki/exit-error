@@ -1,0 +1,8 @@
+{
+  "name": "exit-error",
+  "description": "Maybe make an error from `ChildProcess`'s `exit` event parameters",
+  "keywords": ["child process", "spawn", "error"],
+  "version": "0.0.0",
+  "author": "Maciej Małecki <me@mmalecki.com>",
+  "license": "MIT"
+}
