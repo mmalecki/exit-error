@@ -1,9 +1,9 @@
-# error-code
+# exit-error
 Maybe make an error from `ChildProcess`'s `exit` event parameters.
 
 ## Installation
 ```sh
-npm install error-code
+npm install exit-error
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ function rm(path, next) {
   var rm_ = spawn('rm', ['-rf', path])
   rm_.on('error', next)
   rm_.on('exit', function (code, signal) {
-    next(errorCode('rm', code, signal))
+    next(exitError('rm', code, signal))
   })
 }
 
