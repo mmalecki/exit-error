@@ -1,7 +1,11 @@
 {
   "name": "exit-error",
   "description": "Maybe make an error from `ChildProcess`'s `exit` event parameters",
-  "keywords": ["child process", "spawn", "error"],
+  "keywords": [
+    "child process",
+    "spawn",
+    "error"
+  ],
   "version": "1.0.0",
   "author": "Maciej Małecki <me@mmalecki.com>",
   "license": "MIT",
