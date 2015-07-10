@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/mmalecki/exit-error/issues"
   },
-  "homepage": "https://github.com/mmalecki/exit-error"
+  "homepage": "https://github.com/mmalecki/exit-error",
+  "scripts": {
+    "test": "node test/simple-test.js"
+  }
 }
